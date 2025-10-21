@@ -21,6 +21,6 @@ class TradingStrategy(Strategy):
 
     def run(self, data):
         assets = {"AAPL":0.5, "SPY":0.5}
-        log(assets)
+        log(str(assets))
 
         return TargetAllocation(assets)
